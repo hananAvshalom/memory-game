@@ -21,6 +21,12 @@ border-radius: 2rem;
 background: rgba(119, 160, 156, 0.7);
 margin: 2rem;
 }
+button:hover{
+    transition: 400ms;
+    cursor: pointer;
+    background: rgba(119, 160, 156, 1);
+    transition: 0.3s;
+}
 h3 {
     text-align: center;
     font-size: 2.5rem;
@@ -38,6 +44,10 @@ h3 {
     width: 10rem;
     height: 10rem;
     border: 1px solid black;
+}
+.container div:hover{
+    transition: 400ms;
+    cursor: pointer;
 }
 .hidden {
     display: none;
