@@ -414,7 +414,7 @@ document.querySelector('.boxOfSixteen').addEventListener('click', clickOnSixteen
 
 let counter = 0
 function showCounter() {
-    document.querySelector('#counter').innerText = `Number Of Attempts: ${Math.floor(counter / 4)}\n and please flip them back if they don't match :)...`
+    document.querySelector('#counter').innerText = `Number Of Attempts: ${Math.floor(counter / 4)}`
 }
     // dividing by 4 until i figure out how not make the player flip back the cards
 showCounter()
