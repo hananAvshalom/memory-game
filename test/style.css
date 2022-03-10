@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(224, 175, 175, 0.6), rgba(157, 157, 202, 0.6));
+}
+.container {
+display: grid;
+grid-template-columns: repeat(4, 11rem);
+grid-template-rows: repeat(4, 11rem);
+}
+#counter {
+    color: rgb(29, 34, 94);
+    font-size: 3.5rem;
+    margin: 2.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    
+}
+.container div {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid black;
+}
+.hidden {
+    display: none;
+}
+.blue {
+    background: blue;
+}
+.orange {
+    background: orange;
+}
+.gray {
+    background: gray;
+}
+.purple {
+    background: purple;
+}
+.green {
+    background: green;
+}
+.teal {
+    background: teal;
+}
+.yellow {
+    background: yellow;
+}
+.red {
+    background: red;
+}
